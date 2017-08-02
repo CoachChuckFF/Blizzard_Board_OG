@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -203,22 +203,22 @@
 </package>
 <package name="ETHERNET_PKG">
 <description>Ethernet Jack</description>
-<pad name="P$1" x="0" y="0" drill="1.57"/>
-<pad name="P$2" x="15.49" y="0" drill="1.57"/>
+<pad name="GND0" x="0" y="0" drill="1.57"/>
+<pad name="GND1" x="15.49" y="0" drill="1.57"/>
 <hole x="2.03" y="-3.05" drill="3.25"/>
 <hole x="13.46" y="-3.05" drill="3.25"/>
-<pad name="P$3" x="1.115" y="-7.11" drill="1.02"/>
-<pad name="P$4" x="3.655" y="-7.11" drill="1.02"/>
-<pad name="P$5" x="11.835" y="-7.11" drill="1.02"/>
-<pad name="P$6" x="14.375" y="-7.11" drill="1.02"/>
-<pad name="P$7" x="8.385" y="3.3" drill="0.89"/>
-<pad name="P$8" x="10.925" y="3.3" drill="0.89"/>
-<pad name="P$9" x="5.845" y="3.3" drill="0.89"/>
-<pad name="P$10" x="3.305" y="3.3" drill="0.89"/>
-<pad name="P$11" x="4.575" y="5.84" drill="0.89"/>
-<pad name="P$12" x="7.115" y="5.84" drill="0.89"/>
-<pad name="P$13" x="9.655" y="5.84" drill="0.89"/>
-<pad name="P$14" x="12.195" y="5.84" drill="0.89"/>
+<pad name="G+" x="1.115" y="-7.11" drill="1.02"/>
+<pad name="G-" x="3.655" y="-7.11" drill="1.02"/>
+<pad name="Y+" x="11.835" y="-7.11" drill="1.02"/>
+<pad name="Y-" x="14.375" y="-7.11" drill="1.02"/>
+<pad name="4" x="8.385" y="3.3" drill="0.89"/>
+<pad name="2" x="10.925" y="3.3" drill="0.89"/>
+<pad name="6" x="5.845" y="3.3" drill="0.89"/>
+<pad name="8" x="3.305" y="3.3" drill="0.89"/>
+<pad name="7" x="4.575" y="5.84" drill="0.89"/>
+<pad name="5" x="7.115" y="5.84" drill="0.89"/>
+<pad name="3" x="9.655" y="5.84" drill="0.89"/>
+<pad name="1" x="12.195" y="5.84" drill="0.89"/>
 <wire x1="0" y1="-8.89" x2="1.651" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="1.651" y1="-8.89" x2="2.159" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="2.159" y1="-8.89" x2="2.286" y2="-8.89" width="0.127" layer="21"/>
@@ -473,7 +473,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB_TO_UART_DEV">
+<deviceset name="USB_TO_UART_DEV" prefix="U">
 <description>SINGLE-CHIP USB-TO-UART BRIDGE</description>
 <gates>
 <gate name="G$1" symbol="USB_TO_UART_SYM" x="0" y="0"/>
@@ -517,7 +517,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP_WROOM_32_DEV">
+<deviceset name="ESP_WROOM_32_DEV" prefix="U">
 <description>ESP Wroom 32</description>
 <gates>
 <gate name="G$1" symbol="ESP_WROOM_32_SYM" x="15.24" y="17.78"/>
@@ -571,7 +571,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX_485_DEV">
+<deviceset name="MAX_485_DEV" prefix="U">
 <description>MAX 485</description>
 <gates>
 <gate name="G$1" symbol="MAX_485_STM" x="7.62" y="-10.16"/>
@@ -594,7 +594,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LAN8720_DEV">
+<deviceset name="LAN8720_DEV" prefix="U">
 <description>LAN8720A Ethernet</description>
 <gates>
 <gate name="G$1" symbol="LAN8720_SYM" x="0" y="0"/>
@@ -627,6 +627,53 @@
 <connect gate="G$1" pin="VSS" pad="BGND"/>
 <connect gate="G$1" pin="XTAL1/CLKIN" pad="5"/>
 <connect gate="G$1" pin="XTAL2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ETHERNET_DEV" prefix="X">
+<description>Ethernet Jack</description>
+<gates>
+<gate name="G$1" symbol="ETHERNET_SYM" x="7.62" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="ETHERNET_PKG">
+<connects>
+<connect gate="G$1" pin="CTRD" pad="5"/>
+<connect gate="G$1" pin="CTTD" pad="4"/>
+<connect gate="G$1" pin="G+" pad="G+"/>
+<connect gate="G$1" pin="G-" pad="G-"/>
+<connect gate="G$1" pin="GND0" pad="GND0"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="NC0-" pad="7"/>
+<connect gate="G$1" pin="NC1-" pad="8"/>
+<connect gate="G$1" pin="RX+" pad="3"/>
+<connect gate="G$1" pin="RX-" pad="6"/>
+<connect gate="G$1" pin="TX+" pad="1"/>
+<connect gate="G$1" pin="TX-" pad="2"/>
+<connect gate="G$1" pin="Y+" pad="Y+"/>
+<connect gate="G$1" pin="Y-" pad="Y-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSC_DEV">
+<gates>
+<gate name="G$1" symbol="OSC_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSC_PKG">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
