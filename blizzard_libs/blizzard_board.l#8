@@ -89,7 +89,74 @@
 <smd name="NC2" x="3.9" y="-3.9" dx="0.95" dy="0.25" layer="1" rot="R90"/>
 <smd name="BGND" x="2.4" y="-1.5" dx="3.25" dy="3.25" layer="1"/>
 <circle x="0" y="1" radius="0.390509375" width="0.127" layer="21"/>
-<text x="0" y="2.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="ESP_WROOM_32_PKG">
+<description>ESP Wroom 32 footprint</description>
+<smd name="IO12" x="0" y="0" dx="2" dy="0.97" layer="1"/>
+<smd name="IO14" x="0" y="1.27" dx="2" dy="0.97" layer="1"/>
+<smd name="IO27" x="0" y="2.54" dx="2" dy="0.97" layer="1"/>
+<smd name="IO26" x="0" y="3.81" dx="2" dy="0.97" layer="1"/>
+<smd name="IO25" x="0" y="5.08" dx="2" dy="0.97" layer="1"/>
+<smd name="IO33" x="0" y="6.35" dx="2" dy="0.97" layer="1"/>
+<smd name="IO32" x="0" y="7.62" dx="2" dy="0.97" layer="1"/>
+<smd name="IO35" x="0" y="8.89" dx="2" dy="0.97" layer="1"/>
+<smd name="IO34" x="0" y="10.16" dx="2" dy="0.97" layer="1"/>
+<smd name="SENSOR_VN" x="0" y="11.43" dx="2" dy="0.97" layer="1"/>
+<smd name="SENSOR_VP" x="0" y="12.7" dx="2" dy="0.97" layer="1"/>
+<smd name="EN" x="0" y="13.97" dx="2" dy="0.97" layer="1"/>
+<smd name="3V3" x="0" y="15.24" dx="2" dy="0.97" layer="1"/>
+<smd name="GND0" x="0" y="16.51" dx="2" dy="0.97" layer="1"/>
+<smd name="IO0" x="18" y="0" dx="2" dy="0.97" layer="1"/>
+<smd name="IO4" x="18" y="1.27" dx="2" dy="0.97" layer="1"/>
+<smd name="IO16" x="18" y="2.54" dx="2" dy="0.97" layer="1"/>
+<smd name="IO17" x="18" y="3.81" dx="2" dy="0.97" layer="1"/>
+<smd name="IO5" x="18" y="5.08" dx="2" dy="0.97" layer="1"/>
+<smd name="IO18" x="18" y="6.35" dx="2" dy="0.97" layer="1"/>
+<smd name="IO19" x="18" y="7.62" dx="2" dy="0.97" layer="1"/>
+<smd name="NC" x="18" y="8.89" dx="2" dy="0.97" layer="1"/>
+<smd name="IO21" x="18" y="10.16" dx="2" dy="0.97" layer="1"/>
+<smd name="RXD0" x="18" y="11.43" dx="2" dy="0.97" layer="1"/>
+<smd name="TXD0" x="18" y="12.7" dx="2" dy="0.97" layer="1"/>
+<smd name="IO22" x="18" y="13.97" dx="2" dy="0.97" layer="1"/>
+<smd name="IO23" x="18" y="15.24" dx="2" dy="0.97" layer="1"/>
+<smd name="GND2" x="18" y="16.51" dx="2" dy="0.97" layer="1"/>
+<smd name="GND1" x="3.3" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="IO13" x="4.57" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="SD2" x="5.84" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="SD3" x="7.11" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="CMD" x="8.38" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="CLK" x="9.65" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="SD0" x="10.92" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="SD1" x="12.19" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="IO15" x="13.46" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="IO2" x="14.73" y="-1.5" dx="2" dy="0.97" layer="1" rot="R90"/>
+<smd name="BGND" x="8.3" y="7.8" dx="4.3" dy="4.3" layer="1"/>
+<wire x1="1.27" y1="17.78" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="16.51" y2="0" width="0.127" layer="21"/>
+<wire x1="16.51" y1="0" x2="16.51" y2="17.78" width="0.127" layer="21"/>
+<wire x1="1.27" y1="17.78" x2="16.51" y2="17.78" width="0.127" layer="21"/>
+<wire x1="16.51" y1="17.78" x2="16.51" y2="24.13" width="0.127" layer="39"/>
+<wire x1="16.51" y1="24.13" x2="1.27" y2="24.13" width="0.127" layer="39"/>
+<wire x1="1.27" y1="24.13" x2="1.27" y2="17.78" width="0.127" layer="39"/>
+<rectangle x1="1.27" y1="17.78" x2="16.51" y2="24.13" layer="39"/>
+<text x="-2.54" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="MAX_485_PKG">
+<smd name="P$1" x="0" y="0" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="1.27" y="0" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$3" x="2.54" y="0" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$4" x="3.81" y="0" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$5" x="3.81" y="5.74" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$6" x="2.54" y="5.74" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$7" x="1.27" y="5.74" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$8" x="0" y="5.74" dx="1.15" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-1" y1="1" x2="-1" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="1" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<circle x="0" y="2" radius="0.5" width="0.127" layer="21"/>
+<text x="-2" y="-0.5" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -131,6 +198,7 @@
 <text x="0" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ESP_WROOM_32_SYM">
+<description>ESP_WROOM_32</description>
 <pin name="GND0" x="-20.32" y="25.4" visible="pin" length="middle"/>
 <pin name="3V3" x="-20.32" y="22.86" visible="pin" length="middle"/>
 <pin name="EN" x="-20.32" y="20.32" visible="pin" length="middle"/>
@@ -191,6 +259,49 @@
 <wire x1="-7.62" y1="40.64" x2="-15.24" y2="40.64" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="40.64" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
 </symbol>
+<symbol name="MAX_485_STM">
+<description>MAX 485</description>
+<pin name="RD" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="!RE" x="-12.7" y="5.08" visible="pin" length="middle"/>
+<pin name="DE" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="DI" x="-12.7" y="0" visible="pin" length="middle"/>
+<pin name="GND" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="B" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="7.62" visible="pin" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="LAN8720_SYM">
+<pin name="P$1" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="P$2" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="P$3" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="P$4" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="P$5" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="P$6" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="P$7" x="-5.08" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$8" x="-2.54" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$9" x="0" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$10" x="2.54" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$11" x="5.08" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$12" x="7.62" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="P$13" x="20.32" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="P$14" x="20.32" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="P$15" x="20.32" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="P$16" x="20.32" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="P$17" x="20.32" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="P$18" x="20.32" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="P$19" x="7.62" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$20" x="5.08" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$21" x="2.54" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$22" x="0" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$23" x="-2.54" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$24" x="-5.08" y="22.86" visible="pin" length="middle" rot="R270"/>
+<pin name="P$25" x="-7.62" y="22.86" visible="pin" length="middle" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB_TO_UART_DEV">
@@ -230,6 +341,83 @@
 <connect gate="G$1" pin="TXD" pad="TXD"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 <connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP_WROOM_32_DEV">
+<description>ESP Wroom 32</description>
+<gates>
+<gate name="G$1" symbol="ESP_WROOM_32_SYM" x="15.24" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="ESP_WROOM_32_PKG">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="BGND" pad="BGND"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="CMD" pad="CMD"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND0"/>
+<connect gate="G$1" pin="GND0" pad="GND1"/>
+<connect gate="G$1" pin="GND1" pad="GND2"/>
+<connect gate="G$1" pin="IO0" pad="IO0"/>
+<connect gate="G$1" pin="IO12" pad="IO12"/>
+<connect gate="G$1" pin="IO13" pad="IO13"/>
+<connect gate="G$1" pin="IO14" pad="IO14"/>
+<connect gate="G$1" pin="IO15" pad="IO15"/>
+<connect gate="G$1" pin="IO16" pad="IO16"/>
+<connect gate="G$1" pin="IO17" pad="IO17"/>
+<connect gate="G$1" pin="IO18" pad="IO18"/>
+<connect gate="G$1" pin="IO19" pad="IO19"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO21" pad="IO21"/>
+<connect gate="G$1" pin="IO22" pad="IO22"/>
+<connect gate="G$1" pin="IO23" pad="IO23"/>
+<connect gate="G$1" pin="IO25" pad="IO25"/>
+<connect gate="G$1" pin="IO26" pad="IO26"/>
+<connect gate="G$1" pin="IO27" pad="IO27"/>
+<connect gate="G$1" pin="IO32" pad="IO32"/>
+<connect gate="G$1" pin="IO33" pad="IO33"/>
+<connect gate="G$1" pin="IO34" pad="IO34"/>
+<connect gate="G$1" pin="IO35" pad="IO35"/>
+<connect gate="G$1" pin="IO4" pad="IO4"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="RXD0" pad="RXD0"/>
+<connect gate="G$1" pin="SD0" pad="SD0"/>
+<connect gate="G$1" pin="SD1" pad="SD1"/>
+<connect gate="G$1" pin="SD2" pad="SD2"/>
+<connect gate="G$1" pin="SD3" pad="SD3"/>
+<connect gate="G$1" pin="SENSOR_VN" pad="SENSOR_VN"/>
+<connect gate="G$1" pin="SENSOR_VP" pad="SENSOR_VP"/>
+<connect gate="G$1" pin="TXD0" pad="TXD0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX_485_DEV">
+<description>MAX 485</description>
+<gates>
+<gate name="G$1" symbol="MAX_485_STM" x="7.62" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="MAX_485_PKG">
+<connects>
+<connect gate="G$1" pin="!RE" pad="P$2"/>
+<connect gate="G$1" pin="A" pad="P$6"/>
+<connect gate="G$1" pin="B" pad="P$7"/>
+<connect gate="G$1" pin="DE" pad="P$3"/>
+<connect gate="G$1" pin="DI" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="RD" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
