@@ -1427,6 +1427,7 @@ C) of Power Dissipation.
 <part name="J6" library="blizzard_common_1" deviceset="XH_2POS_DEV" device=""/>
 <part name="J7" library="blizzard_common_1" deviceset="XH_2POS_DEV" device=""/>
 <part name="J4" library="blizzard_common_1" deviceset="XH_6POS_DEV" device=""/>
+<part name="R34" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -1464,7 +1465,7 @@ C) of Power Dissipation.
 <text x="-38.1" y="180.34" size="1.6764" layer="97">1</text>
 <text x="-38.1" y="177.8" size="1.6764" layer="97">2</text>
 <text x="-38.1" y="175.26" size="1.6764" layer="97">3</text>
-<text x="-38.1" y="172.72" size="1.6764" layer="97">NC</text>
+<text x="-38.1" y="172.72" size="1.6764" layer="97">5V</text>
 <text x="-33.02" y="180.34" size="1.6764" layer="97">GND</text>
 <text x="-33.02" y="177.8" size="1.6764" layer="97">D-</text>
 <text x="-33.02" y="175.26" size="1.6764" layer="97">D+</text>
@@ -1665,6 +1666,7 @@ C) of Power Dissipation.
 <instance part="J6" gate="G$1" x="-137.16" y="114.3" rot="R180"/>
 <instance part="J7" gate="G$1" x="-33.02" y="114.3"/>
 <instance part="J4" gate="G$1" x="254" y="198.12"/>
+<instance part="R34" gate="G$1" x="-119.38" y="15.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1848,6 +1850,11 @@ C) of Power Dissipation.
 <wire x1="-99.06" y1="180.34" x2="-96.52" y2="180.34" width="0.1524" layer="91"/>
 <label x="-96.52" y="180.34" size="1.6764" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="P$4"/>
+<wire x1="-50.8" y1="172.72" x2="-53.34" y2="172.72" width="0.1524" layer="91"/>
+<label x="-53.34" y="172.72" size="1.6764" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RTS" class="0">
 <segment>
@@ -1927,9 +1934,10 @@ C) of Power Dissipation.
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SENSE"/>
-<wire x1="-127" y1="20.32" x2="-124.46" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="20.32" x2="-124.46" y2="12.7" width="0.1524" layer="91"/>
-<label x="-124.46" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="-127" y1="20.32" x2="-119.38" y2="20.32" width="0.1524" layer="91"/>
+<label x="-119.38" y="5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="R34" gate="G$1" pin="P$2"/>
+<wire x1="-119.38" y1="20.32" x2="-119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="P$1"/>
@@ -2158,12 +2166,6 @@ C) of Power Dissipation.
 <pinref part="X1" gate="G$1" pin="VCC"/>
 <wire x1="-127" y1="27.94" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="GND"/>
-<wire x1="-127" y1="17.78" x2="-124.46" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -2986,6 +2988,15 @@ C) of Power Dissipation.
 <pinref part="R35" gate="G$1" pin="P$2"/>
 <pinref part="J4" gate="G$1" pin="P$6"/>
 <wire x1="243.84" y1="190.5" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R34" gate="G$1" pin="P$1"/>
+<wire x1="-119.38" y1="12.7" x2="-119.38" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="GND"/>
+<wire x1="-119.38" y1="5.08" x2="-127" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-127" y1="5.08" x2="-127" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

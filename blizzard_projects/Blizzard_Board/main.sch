@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1381,13 +1381,13 @@ C) of Power Dissipation.
 <part name="U4" library="blizzard_board" deviceset="LAN8720_DEV" device=""/>
 <part name="R9" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="33"/>
 <part name="R10" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="33"/>
-<part name="C12" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="104"/>
-<part name="C13" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="104"/>
+<part name="C12" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="0.1uF"/>
+<part name="C13" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="0.1uF"/>
 <part name="L2" library="blizzard_common_1" deviceset="0805_IND_DEV" device="" value="FB"/>
 <part name="R11" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="1.5K"/>
-<part name="C14" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="104"/>
-<part name="C15" library="blizzard_common_1" deviceset="0805_CAP_DEV" device=""/>
-<part name="C16" library="blizzard_common_1" deviceset="0805_CAP_DEV" device=""/>
+<part name="C14" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="0.1uF"/>
+<part name="C15" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="470pF"/>
+<part name="C16" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="1uF"/>
 <part name="R12" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="12.1K"/>
 <part name="Y1" library="blizzard_board" deviceset="OSC_DEV" device="" value="50MHz"/>
 <part name="R13" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="4.7K\"/>
@@ -1395,14 +1395,14 @@ C) of Power Dissipation.
 <part name="R15" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="33"/>
 <part name="R16" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="33"/>
 <part name="R17" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="4.7K"/>
-<part name="C17" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="104"/>
+<part name="C17" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="0.1uF"/>
 <part name="R18" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="4.7K"/>
 <part name="R19" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="10"/>
 <part name="R20" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="10"/>
 <part name="R21" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="10"/>
 <part name="R22" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="10"/>
 <part name="R23" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="0"/>
-<part name="C18" library="blizzard_common_1" deviceset="0805_CAP_DEV" device=""/>
+<part name="C18" library="blizzard_common_1" deviceset="0805_CAP_DEV" device="" value="0.022uF"/>
 <part name="R24" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="49.9"/>
 <part name="R25" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="49.9"/>
 <part name="R28" library="blizzard_common_1" deviceset="0805_RES_DEV" device="" value="49.9"/>
@@ -1550,6 +1550,11 @@ C) of Power Dissipation.
 <wire x1="228.6" y1="-104.14" x2="228.6" y2="-93.98" width="0.1524" layer="97"/>
 <wire x1="231.14" y1="-93.98" x2="231.14" y2="-81.28" width="0.1524" layer="97"/>
 <text x="-116.84" y="15.24" size="1.6764" layer="97">NC</text>
+<text x="-96.52" y="2.54" size="1.778" layer="97" rot="R180">Do not populate</text>
+<wire x1="-111.76" y1="2.54" x2="-116.84" y2="10.16" width="0.1524" layer="97"/>
+<wire x1="-116.84" y1="10.16" x2="-116.84" y2="8.128" width="0.1524" layer="97"/>
+<wire x1="-116.84" y1="8.128" x2="-114.808" y2="9.398" width="0.1524" layer="97"/>
+<wire x1="-114.808" y1="9.398" x2="-116.84" y2="10.16" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-45.72" y="30.48"/>

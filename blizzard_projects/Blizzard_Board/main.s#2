@@ -1670,8 +1670,14 @@ C) of Power Dissipation.
 <instance part="J7" gate="G$1" x="-33.02" y="114.3"/>
 <instance part="J4" gate="G$1" x="254" y="198.12"/>
 <instance part="R34" gate="G$1" x="-119.38" y="15.24" rot="R90"/>
-<instance part="R38" gate="G$1" x="66.04" y="147.32"/>
-<instance part="R40" gate="G$1" x="106.68" y="127" rot="R90"/>
+<instance part="R38" gate="G$1" x="66.04" y="147.32" smashed="yes">
+<attribute name="NAME" x="63.5" y="144.78" size="1.27" layer="94"/>
+<attribute name="VALUE" x="68.58" y="144.78" size="1.27" layer="94"/>
+</instance>
+<instance part="R40" gate="G$1" x="106.68" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.14" y="124.46" size="1.27" layer="94" rot="R90"/>
+<attribute name="VALUE" x="104.14" y="129.54" size="1.27" layer="94" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>

@@ -3019,9 +3019,9 @@ C) of Power Dissipation.
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="IO15"/>
 <pinref part="R40" gate="G$1" pin="P$2"/>
-<wire x1="106.68" y1="132.08" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="IO15"/>
+<wire x1="106.68" y1="129.54" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

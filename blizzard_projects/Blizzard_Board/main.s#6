@@ -2457,9 +2457,9 @@ C) of Power Dissipation.
 <label x="127" y="149.86" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="P$1"/>
-<wire x1="238.76" y1="193.04" x2="226.06" y2="193.04" width="0.1524" layer="91"/>
-<label x="226.06" y="193.04" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<pinref part="R37" gate="G$1" pin="P$1"/>
+<wire x1="238.76" y1="195.58" x2="233.68" y2="195.58" width="0.1524" layer="91"/>
+<label x="233.68" y="195.58" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO16" class="0">
@@ -2469,9 +2469,9 @@ C) of Power Dissipation.
 <label x="127" y="152.4" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R37" gate="G$1" pin="P$1"/>
-<wire x1="238.76" y1="195.58" x2="233.68" y2="195.58" width="0.1524" layer="91"/>
-<label x="233.68" y="195.58" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<pinref part="R39" gate="G$1" pin="P$1"/>
+<wire x1="238.76" y1="198.12" x2="226.06" y2="198.12" width="0.1524" layer="91"/>
+<label x="226.06" y="198.12" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO17" class="0">
@@ -2498,9 +2498,9 @@ C) of Power Dissipation.
 <label x="127" y="157.48" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R39" gate="G$1" pin="P$1"/>
-<wire x1="238.76" y1="198.12" x2="226.06" y2="198.12" width="0.1524" layer="91"/>
-<label x="226.06" y="198.12" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<pinref part="R36" gate="G$1" pin="P$1"/>
+<wire x1="238.76" y1="193.04" x2="226.06" y2="193.04" width="0.1524" layer="91"/>
+<label x="226.06" y="193.04" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO18" class="0">

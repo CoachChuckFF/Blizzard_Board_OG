@@ -1547,6 +1547,7 @@ C) of Power Dissipation.
 <wire x1="231.14" y1="-93.98" x2="266.7" y2="-93.98" width="0.1524" layer="97"/>
 <wire x1="228.6" y1="-104.14" x2="228.6" y2="-93.98" width="0.1524" layer="97"/>
 <wire x1="231.14" y1="-93.98" x2="231.14" y2="-81.28" width="0.1524" layer="97"/>
+<text x="-116.84" y="15.24" size="1.6764" layer="97">NC</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-45.72" y="30.48"/>
