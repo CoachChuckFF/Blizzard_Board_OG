@@ -154,14 +154,14 @@
 <pad name="G-" x="-4.09" y="-4.065" drill="1.02"/>
 <pad name="Y+" x="4.09" y="-4.065" drill="1.02"/>
 <pad name="Y-" x="6.63" y="-4.065" drill="1.02"/>
-<pad name="4" x="0.64" y="6.345" drill="0.89"/>
-<pad name="2" x="3.18" y="6.345" drill="0.89"/>
-<pad name="6" x="-1.9" y="6.345" drill="0.89"/>
-<pad name="8" x="-4.44" y="6.345" drill="0.89"/>
-<pad name="7" x="-3.17" y="8.885" drill="0.89"/>
-<pad name="5" x="-0.63" y="8.885" drill="0.89"/>
-<pad name="3" x="1.91" y="8.885" drill="0.89"/>
-<pad name="1" x="4.45" y="8.885" drill="0.89"/>
+<pad name="4" x="-0.63" y="8.885" drill="0.89"/>
+<pad name="2" x="-3.17" y="8.885" drill="0.89"/>
+<pad name="6" x="1.91" y="8.885" drill="0.89"/>
+<pad name="8" x="4.45" y="8.885" drill="0.89"/>
+<pad name="7" x="3.18" y="6.345" drill="0.89"/>
+<pad name="5" x="0.64" y="6.345" drill="0.89"/>
+<pad name="3" x="-1.9" y="6.345" drill="0.89"/>
+<pad name="1" x="-4.44" y="6.345" drill="0.89"/>
 <wire x1="-7.745" y1="-5.845" x2="-6.094" y2="-5.845" width="0.127" layer="21"/>
 <wire x1="-6.094" y1="-5.845" x2="-5.586" y2="-5.845" width="0.127" layer="21"/>
 <wire x1="-5.586" y1="-5.845" x2="-5.459" y2="-5.845" width="0.127" layer="21"/>
@@ -252,15 +252,15 @@
 </package>
 <package name="OSC_PKG">
 <description>Oscilator</description>
-<smd name="2" x="-1.1049" y="-0.8763" dx="1.2" dy="0.95" layer="1"/>
-<smd name="1" x="1.0951" y="-0.8763" dx="1.2" dy="0.95" layer="1"/>
-<smd name="4" x="1.0951" y="0.8737" dx="1.2" dy="0.95" layer="1"/>
-<smd name="3" x="-1.1049" y="0.8737" dx="1.2" dy="0.95" layer="1"/>
+<smd name="2" x="1.095096875" y="-0.8763" dx="1.2" dy="0.95" layer="1"/>
+<smd name="1" x="-1.1049" y="-0.8763" dx="1.2" dy="0.95" layer="1"/>
+<smd name="4" x="-1.1049" y="0.8737" dx="1.2" dy="0.95" layer="1"/>
+<smd name="3" x="1.095096875" y="0.873684375" dx="1.2" dy="0.95" layer="1"/>
 <circle x="-0.0549" y="-0.0263" radius="0.4242625" width="0.127" layer="21"/>
 <wire x1="-0.0549" y1="0.0237" x2="-0.0549" y2="0.3737" width="0.127" layer="21"/>
 <wire x1="-0.0549" y1="0.0237" x2="0.1451" y2="0.0237" width="0.127" layer="21"/>
-<wire x1="-0.0549" y1="-0.6263" x2="-0.0549" y2="-1.3263" width="0.127" layer="21"/>
-<wire x1="0.5451" y1="-0.0263" x2="1.6951" y2="-0.0263" width="0.127" layer="21"/>
+<wire x1="-0.0549" y1="-0.4993" x2="-0.0549" y2="-1.2501" width="0.127" layer="21"/>
+<wire x1="-0.5451" y1="0.0263" x2="-1.6951" y2="0.0263" width="0.127" layer="21"/>
 <text x="-3.4549" y="2.0237" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="MAX_485_PKG">
@@ -697,11 +697,11 @@
 <package name="USB_CONN_PKG">
 <smd name="P$1" x="-3.1" y="2.55" dx="2.1" dy="1.6" layer="1" rot="R180"/>
 <smd name="P$2" x="3.1" y="2.55" dx="2.1" dy="1.6" layer="1" rot="R180"/>
-<smd name="PIN1" x="-1.3" y="2.55" dx="2" dy="0.4" layer="1" rot="R90"/>
-<smd name="PIN2" x="-0.65" y="2.55" dx="2" dy="0.4" layer="1" rot="R90"/>
-<smd name="PIN3" x="0" y="2.55" dx="2" dy="0.4" layer="1" rot="R90"/>
-<smd name="PIN4" x="0.65" y="2.55" dx="2" dy="0.4" layer="1" rot="R90"/>
-<smd name="PIN5" x="1.3" y="2.55" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="PIN1" x="-1.3" y="2.8" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="PIN2" x="-0.65" y="2.8" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="PIN3" x="0" y="2.8" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="PIN4" x="0.65" y="2.8" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="PIN5" x="1.3" y="2.8" dx="1.5" dy="0.4" layer="1" rot="R90"/>
 <smd name="P$3" x="-3.8" y="0" dx="1.9" dy="1.9" layer="1"/>
 <smd name="P$4" x="3.82" y="0" dx="1.9" dy="1.9" layer="1"/>
 <wire x1="-3.9" y1="1.55" x2="-3.9" y2="1.15" width="0.127" layer="21"/>
@@ -717,13 +717,19 @@
 <wire x1="-1.575" y1="-0.9" x2="1.625" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="1.625" y1="0.8" x2="-1.575" y2="0.8" width="0.127" layer="21"/>
 <text x="-2.675" y="1.6" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="0.89" y1="-0.89" x2="0.889" y2="-0.89" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.89" x2="0.889" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-0.889" x2="0.762" y2="0.762" width="0.127" layer="21"/>
 </package>
 <package name="ESD_SOL_PKG">
 <smd name="P$1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
 <smd name="P$2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
 <text x="-1.5" y="1" size="0.6096" layer="25">&gt;NAME</text>
-<wire x1="-0.5" y1="-0.381" x2="0.516" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="0.381" x2="0.516" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-0.381" x2="-0.127" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="-0.381" x2="0.516" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="0.381" x2="-0.127" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.381" x2="0.516" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="-0.381" x2="-0.127" y2="0.381" width="0.127" layer="21"/>
 </package>
 <package name="TACKTILE_PB_PKG">
 <smd name="1" x="-3.9751" y="2.250440625" dx="1.55" dy="1.3" layer="1"/>
@@ -1471,7 +1477,7 @@ C) of Power Dissipation.
 <text x="-33.02" y="175.26" size="1.6764" layer="97">D+</text>
 <text x="40.64" y="172.72" size="1.6764" layer="97">AnyFi B</text>
 <text x="40.64" y="170.18" size="1.6764" layer="97">Extra</text>
-<text x="40.64" y="167.64" size="1.6764" layer="97">Extra</text>
+<text x="40.64" y="162.56" size="1.6764" layer="97">Extra</text>
 <text x="40.64" y="152.4" size="1.6764" layer="97">Eth CRS</text>
 <text x="109.22" y="101.6" size="1.6764" layer="97" rot="R90">Extra</text>
 <text x="139.7" y="149.86" size="1.6764" layer="97">Extra</text>
@@ -1479,7 +1485,7 @@ C) of Power Dissipation.
 <text x="139.7" y="154.94" size="1.6764" layer="97">Eth Pow</text>
 <text x="139.7" y="157.48" size="1.6764" layer="97">Extra</text>
 <text x="40.64" y="165.1" size="1.6764" layer="97">AnyFi R</text>
-<text x="40.64" y="162.56" size="1.6764" layer="97">AnyFi G</text>
+<text x="40.64" y="167.64" size="1.6764" layer="97">AnyFi G</text>
 <text x="40.64" y="160.02" size="1.6764" layer="97">AnyFi K</text>
 <text x="40.64" y="157.48" size="1.6764" layer="97">Eth RXD0</text>
 <text x="40.64" y="154.94" size="1.6764" layer="97">Eth RXD1</text>
@@ -1547,12 +1553,6 @@ C) of Power Dissipation.
 <wire x1="231.14" y1="-93.98" x2="266.7" y2="-93.98" width="0.1524" layer="97"/>
 <wire x1="228.6" y1="-104.14" x2="228.6" y2="-93.98" width="0.1524" layer="97"/>
 <wire x1="231.14" y1="-93.98" x2="231.14" y2="-81.28" width="0.1524" layer="97"/>
-<text x="-116.84" y="15.24" size="1.6764" layer="97">NC</text>
-<text x="-96.52" y="2.54" size="1.778" layer="97" rot="R180">Do not populate</text>
-<wire x1="-111.76" y1="2.54" x2="-116.84" y2="10.16" width="0.1524" layer="97"/>
-<wire x1="-116.84" y1="10.16" x2="-116.84" y2="8.128" width="0.1524" layer="97"/>
-<wire x1="-116.84" y1="8.128" x2="-114.808" y2="9.398" width="0.1524" layer="97"/>
-<wire x1="-114.808" y1="9.398" x2="-116.84" y2="10.16" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-45.72" y="30.48"/>
@@ -1809,18 +1809,6 @@ C) of Power Dissipation.
 <pinref part="R22" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="-12.7" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
 <label x="187.96" y="-15.24" size="1.6764" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<wire x1="215.9" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="127" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="P$2"/>
-<wire x1="246.38" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="P$2"/>
-<wire x1="220.98" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<label x="210.82" y="116.84" size="1.6764" layer="95" rot="R180" xref="yes"/>
-<wire x1="215.9" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="127" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<junction x="215.9" y="116.84"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2308,9 +2296,16 @@ C) of Power Dissipation.
 <label x="58.42" y="167.64" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="P$1"/>
-<wire x1="238.76" y1="200.66" x2="233.68" y2="200.66" width="0.1524" layer="91"/>
-<label x="233.68" y="200.66" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="P$3"/>
+<wire x1="220.98" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
+<label x="203.2" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="P$3"/>
+<wire x1="213.36" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="114.3" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="129.54" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
+<junction x="213.36" y="114.3"/>
 </segment>
 </net>
 <net name="IO35" class="0">
@@ -2338,16 +2333,9 @@ C) of Power Dissipation.
 <label x="58.42" y="162.56" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="P$3"/>
-<wire x1="220.98" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
-<label x="203.2" y="114.3" size="1.6764" layer="95" rot="R180" xref="yes"/>
-<wire x1="213.36" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="114.3" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
-<junction x="213.36" y="114.3"/>
-<wire x1="213.36" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="129.54" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="P$3"/>
-<wire x1="243.84" y1="114.3" x2="248.92" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="P$1"/>
+<wire x1="238.76" y1="200.66" x2="233.68" y2="200.66" width="0.1524" layer="91"/>
+<label x="233.68" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO33" class="0">
@@ -3025,6 +3013,20 @@ C) of Power Dissipation.
 <pinref part="R40" gate="G$1" pin="P$2"/>
 <pinref part="U3" gate="G$1" pin="IO15"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<wire x1="215.9" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="127" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="P$2"/>
+<wire x1="246.38" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
+<wire x1="220.98" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="210.82" y="116.84" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<wire x1="215.9" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="127" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<junction x="215.9" y="116.84"/>
 </segment>
 </net>
 </nets>
