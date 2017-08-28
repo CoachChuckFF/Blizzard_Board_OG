@@ -13036,15 +13036,11 @@ design rules under a new name.</description>
 <contactref element="R17" pad="P$2"/>
 <contactref element="R18" pad="P$2"/>
 <contactref element="R22" pad="P$1"/>
-<contactref element="J5" pad="P$2"/>
-<contactref element="J2" pad="P$2"/>
 <contactref element="J7" pad="P$1"/>
-<wire x1="67.96" y1="16.54" x2="60.34" y2="16.54" width="0.508" layer="1"/>
 <wire x1="10.81" y1="3.78" x2="10.83" y2="3.81" width="1.016" layer="16"/>
 <wire x1="10.81" y1="3.78" x2="13.066" y2="1.524" width="1.016" layer="16"/>
 <wire x1="13.066" y1="1.524" x2="70.524" y2="1.524" width="1.016" layer="16"/>
 <wire x1="70.524" y1="1.524" x2="72.456" y2="3.456" width="1.016" layer="16"/>
-<wire x1="72.456" y1="3.456" x2="72.456" y2="14.5720875" width="1.016" layer="16"/>
 <wire x1="18.3284" y1="15.4984" x2="20.22" y2="17.39" width="1.016" layer="16"/>
 <wire x1="18.3284" y1="5.86603125" x2="18.3284" y2="15.4984" width="1.016" layer="16"/>
 <wire x1="12.72413125" y1="2.3956" x2="14.85796875" y2="2.3956" width="1.016" layer="16"/>
@@ -13095,9 +13091,7 @@ design rules under a new name.</description>
 <wire x1="36.14026875" y1="42.63026875" x2="36.21" y2="42.704903125" width="0.1524" layer="1"/>
 <wire x1="36.14026875" y1="42.63026875" x2="35.855" y2="42.345" width="0.1524" layer="1"/>
 <wire x1="35.855" y1="42.345" x2="35.8446" y2="39.9923" width="0.1524" layer="1"/>
-<wire x1="67.96" y1="16.54" x2="70.4780875" y2="16.55" width="1.016" layer="16"/>
-<wire x1="70.4780875" y1="16.55" x2="72.456" y2="14.5720875" width="1.016" layer="16"/>
-<wire x1="72.456" y1="69.344" x2="72.456" y2="14.5720875" width="1.016" layer="16"/>
+<wire x1="72.456" y1="69.344" x2="72.456" y2="3.456" width="1.016" layer="16"/>
 <wire x1="72.456" y1="69.344" x2="72.456" y2="74.844" width="1.016" layer="16"/>
 <wire x1="72.456" y1="74.844" x2="70.17" y2="76.36" width="1.016" layer="16"/>
 <wire x1="70.17" y1="76.36" x2="68.49026875" y2="76.35" width="1.016" layer="16"/>
@@ -14484,6 +14478,11 @@ design rules under a new name.</description>
 <via x="48.154075" y="57.654075" extent="1-16" drill="0.35"/>
 <wire x1="48.154075" y1="57.654075" x2="47.13" y2="58.67815" width="0.1524" layer="1"/>
 <wire x1="47.13" y1="58.67815" x2="47.1384" y2="59.46" width="0.1524" layer="1"/>
+</signal>
+<signal name="NC">
+<contactref element="J5" pad="P$2"/>
+<contactref element="J2" pad="P$2"/>
+<wire x1="67.96" y1="16.54" x2="60.34" y2="16.54" width="0.508" layer="1"/>
 </signal>
 </signals>
 <errors>

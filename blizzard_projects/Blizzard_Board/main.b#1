@@ -12816,7 +12816,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.85" y="19.343" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="L2" library="blizzard_common_1" package="0805_PKG" value="FB" x="34.865" y="30.287" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.245" y="28.103" size="0.8128" layer="25"/>
+<attribute name="NAME" x="33.375" y="28.133" size="0.8128" layer="25"/>
 </element>
 <element name="Q1" library="blizzard_common_0" package="SOT_23_3_PKG" value="s8050(NPN)" x="11.12" y="64.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.407" y="67.624" size="1.27" layer="25" rot="R180"/>
