@@ -1810,18 +1810,6 @@ C) of Power Dissipation.
 <wire x1="187.96" y1="-12.7" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
 <label x="187.96" y="-15.24" size="1.6764" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<wire x1="215.9" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="127" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="P$2"/>
-<wire x1="246.38" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="P$2"/>
-<wire x1="220.98" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<label x="210.82" y="116.84" size="1.6764" layer="95" rot="R180" xref="yes"/>
-<wire x1="215.9" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="127" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<junction x="215.9" y="116.84"/>
-</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -3025,6 +3013,20 @@ C) of Power Dissipation.
 <pinref part="R40" gate="G$1" pin="P$2"/>
 <pinref part="U3" gate="G$1" pin="IO15"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<wire x1="215.9" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="127" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="P$2"/>
+<wire x1="246.38" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
+<wire x1="220.98" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="210.82" y="116.84" size="1.6764" layer="95" rot="R180" xref="yes"/>
+<wire x1="215.9" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="127" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<junction x="215.9" y="116.84"/>
 </segment>
 </net>
 </nets>

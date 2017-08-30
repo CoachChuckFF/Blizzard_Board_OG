@@ -717,6 +717,9 @@
 <wire x1="-1.575" y1="-0.9" x2="1.625" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="1.625" y1="0.8" x2="-1.575" y2="0.8" width="0.127" layer="21"/>
 <text x="-2.675" y="1.6" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="0.89" y1="-0.89" x2="0.889" y2="-0.89" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.89" x2="0.889" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-0.889" x2="0.762" y2="0.762" width="0.127" layer="21"/>
 </package>
 <package name="ESD_SOL_PKG">
 <smd name="P$1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
